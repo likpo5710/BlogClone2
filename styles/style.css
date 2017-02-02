@@ -1,0 +1,111 @@
+.skyline {
+  max-width: 100%;
+}
+
+.logo {
+  height: 32%;
+  border-radius: 50%;
+  border: 4px solid white;
+  position: absolute;
+  top: 80%;
+  left: 13%;
+  max-width: 100%;
+  }
+
+.img-container {
+  width: 100%;
+  height: 100;
+  position: relative;
+  margin: auto;
+}
+
+
+.classroom {
+  width: 100%;
+  top: 10%;
+}
+
+small {
+  font-style: italic;
+}
+
+.nounderline {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.left {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 400px;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.right {
+  display: inline-block;
+  width: 55%;
+  margin: 1%;
+}
+
+.one {
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 4%;
+}
+
+.two {
+  display: inline-block;
+  width: 50%;
+}
+
+.three {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 280px;
+  position: fixed;
+  right: 1%;
+  top:87%;
+}
+
+.three div:first-child {
+  border-bottom: 1px solid grey;
+  font-family: Arial;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+.three img{
+  padding:5px;
+  vertical-align:middle;
+  width: 35px;
+}
+
+.three div ~ div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.three div > p {
+  margin:0;
+  padding: 1px;
+  font-size: 0.7em;
+}
+
+.three p ~ p {
+  color:grey;
+}
+
+.three button {
+  background-color: blue;
+  border:none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: bold;
+  padding: 4px 15px 4px 8px;
+  margin: 4px 8px 4px 2px;
+}
